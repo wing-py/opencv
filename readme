@@ -1,1 +1,3 @@
 hello,this is where I record opencv-python
+note 1: sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+        due to the conflict between ros-opencv and python-opencv,you must do this before every cv2 to be import!
