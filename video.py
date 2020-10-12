@@ -11,4 +11,4 @@ def videocap():
         if k==ord("q"):
             break
     cap.release()
-    cv22.destroyAllWindows()
+    cv2.destroyAllWindows()
